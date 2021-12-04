@@ -27,4 +27,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Welcom to sdfsdfdsfastapi"}
+    return {"message": "Welcom to fastapi"}
